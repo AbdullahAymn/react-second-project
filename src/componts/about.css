@@ -1,0 +1,122 @@
+.aboutcont{
+    background-color: #f2f2f2;
+    padding: 60px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutcont h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.aboutcont .aboutbtn{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #f2f2f2;
+    font-weight: 500;
+}
+.aboutcont .aboutbtn:hover{
+    cursor: pointer;
+}
+
+.aboutcont .aboutactiv{
+    background-color: #2735ea ;
+    color: #fff;
+
+}
+.aboutsecondcount{
+    background-color: #fff;
+    padding: 100px 40px;
+}
+.overcount{
+    padding: 40px;
+
+}
+
+.aboutsecondcount h1{
+    font-size: 28px;
+    width: 90%;
+}
+
+.aboutsecondcount .bl , .aboutsecondcount .nbl{
+    width: 80%;
+    color: #2735ea;
+    margin-bottom:30px ;
+    font-weight: 500;
+    font-size: 18px ;
+}
+.aboutsecondcount .nbl{
+    
+    color: #000000;
+    font-weight: 400;
+}
+
+.aboutsecondcount button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #2735ea;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+.aboutsecondcount button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .aboutsecondcount h1{
+        font-size: 25px;
+        
+    }
+
+}
+@media screen and (max-width: 960px){
+    .aboutcont{
+        
+        padding: 60px 50px;
+
+    }
+    .aboutsecondcount h1{
+        font-size: 22px;
+        width: 100%;
+    }
+    .aboutsecondcount .bl , .aboutsecondcount .nbl{
+        width: 100%;
+        margin-bottom:20px ;
+        font-weight: 500;
+        font-size: 15px ;
+    }
+    .aboutcont .aboutbtn{
+        padding: 8px 15px;
+        font-size: 14px;
+        
+    }
+
+}
+@media screen and (max-width: 500px){
+    .aboutcont{
+        
+        padding: 60px 30px;
+
+    }
+    .aboutcont h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .aboutsecondcount h1{
+        font-size: 15px;
+        width: 100%;
+    }
+    .aboutsecondcount .bl , .aboutsecondcount .nbl{
+        width: 100%;
+        margin-bottom:13px ;
+        font-size: 10px ;
+    }
+    .aboutcont .aboutbtn{
+        padding: 4px 10px;
+        font-size: 14px;
+        
+    }
+
+}

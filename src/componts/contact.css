@@ -1,0 +1,95 @@
+.contactcont{
+    background: url("images/cover2.jpeg");
+    background-position: 50% 50%;
+    padding: 40px 250px;
+
+}
+
+.contactitems{
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 30px 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.contactitems h1{
+
+    margin: 30px auto 40px;
+    text-align: center;
+
+}
+
+.contactitems form{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.contactitems form section{
+    width: 48%;
+    margin: 5px auto;
+    
+}
+.contactitems form section input , .contactitems form section textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.25rem;
+    background-color: #f2f2f2;
+    border: none;
+
+
+}
+
+.contactitems form .mess{
+    width: 98%;
+    margin: 5px auto;
+    
+    
+}
+
+.contactitems form button{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+
+    margin: 30px auto;
+}
+.contactitems form button:hover{
+    opacity: .7;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 960px){
+    .contactcont{
+        padding: 30px 150px;
+    }
+
+}
+
+@media screen and (max-width:750px){
+    .contactcont{
+        padding: 20px;
+    }
+    .contactitems form section{
+        width: 98%;
+        
+    }
+    .contactitems{
+        
+     
+        padding: 20px 30px;
+        
+    }
+    
+
+}
+
+

@@ -1,0 +1,109 @@
+.dscont{
+    background-color: #292d33;
+    padding: 50px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.top {
+    color: #fff;
+}
+
+.top h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.top p{
+    font-size: 15px;
+    width: 30%;
+    margin: 0 auto 40px;
+}
+
+.dsitems{
+    background-color: #292d33;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+
+.dsitems .dsitem{
+    max-width: 27%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 20px 50px;
+    margin: 40px auto;
+
+}
+.dsitems .dsitem img{
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    margin: -38px auto 0;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    border: 5px solid #fff;
+}
+.dsitems .dsitem h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px auto 40px;
+}
+.dsitems .dsitem p{
+    color: #292d33;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px auto 30px;
+}
+
+.dsitems .dsitem button{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+}
+.dsitems .dsitem button:hover{
+    opacity: .7;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px){
+    .dsitems .dsitem{
+        max-width: 40%;
+    }
+}
+@media screen and (max-width: 960px){
+    .dsitems .dsitem{
+        max-width: 70%;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .dscont{
+        padding: 40px 20px;
+    }
+    .dsitems .dsitem img{
+        height: 140px;
+        width: 140px;
+        
+        margin: -48px auto 0;
+        
+    }
+    .top h1{
+        font-size: 40px;
+
+    }
+    .top p{
+        width: 70%;
+    }
+}
+
+

@@ -1,0 +1,95 @@
+.home-first{
+    background:linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(images/cover1.jpeg) center ;
+    height: 100vh;
+    background-position: 50% 50%;
+    padding: 35vh 200px;
+
+
+}
+
+.home-first h1, .home-first h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 20px 0;
+
+}
+
+.home-first h1{
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.home-first h3{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.home-second{
+    width: 100%;
+    margin-top: -100px;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-second .cont{
+    background-color: #fff;
+    padding: 50px 30px;
+    margin:10px ;
+    box-shadow: 2px 5px 14px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 5px 14px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 14px -6px rgba(0,0,0,0.75);
+    font-family: Montserrat, sans-serif;
+    max-width: 450px;
+    margin-bottom: 50px;
+
+}
+
+.home-second .cont i{
+    color: rgba(39, 52, 234, 0.514);
+    font-size: 28px;
+    position: relative;
+    top: 0;
+    left: 0;
+     
+}
+
+.home-second .cont h2{
+    font-weight: 700;
+    text-decoration: bold;
+    margin: -25px auto 0 60px ;
+}
+
+.home-second .cont h4{
+    margin: 20px auto 0 60px ;
+}
+
+
+
+@media screen and (max-width: 960px){
+
+    .home-first{
+        padding: 30vh 50px;
+
+    }
+    .home-first h1{
+        font-weight: 700;
+        font-size: 3.6rem;
+    }
+    .home-first h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .home-second{
+        margin-top: -120px;
+        padding: 0 50px;
+    }
+    .home-second .cont{
+        background-color: #fff;
+        padding: 30px;
+    
+    }
+    
+}
+
